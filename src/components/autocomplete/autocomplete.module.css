@@ -1,0 +1,35 @@
+.choosingList {
+  position: absolute;
+  display: flex;
+  transition: 400ms all;
+  height: max-content;
+  max-height: 0px;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  flex-direction: column;
+}
+
+.inputBlock {
+  position: relative;
+  width: 300px;
+  z-index: 1;
+}
+
+.input {
+  width: 300px;
+  border: 2px solid gray;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.choosingList button {
+  border-color: transparent;
+  cursor: pointer;
+
+  padding: 4px 0;
+}
+
+.choosingList button:hover {
+  background: linear-gradient(to right, red 0%, white 5%, 95%);
+}

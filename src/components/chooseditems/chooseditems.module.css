@@ -1,0 +1,22 @@
+.choosedBlocks {
+  display: flex;
+  margin-top: 5px;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.choosedBlocks button {
+  width: calc(50% - 2px);
+  padding: 4px 0;
+  cursor: pointer;
+  margin-bottom: 2px;
+  border: transparent;
+  transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.choosedBlocks button:hover {
+  transform: scale(0.95);
+}
